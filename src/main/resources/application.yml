@@ -1,0 +1,27 @@
+spring:
+    application:
+      name:
+        VKBot
+
+tokens:
+  secret: !!!
+  access_key: !!!!
+  confirmation: !!!
+
+send-message-url:
+  scheme:
+    https
+  host:
+    api.vk.com
+  pathSegment:
+    method
+  apiVersion:
+    5.103
+  api_method:
+    messages.send
+
+server:
+  port:
+    8080
+
+
